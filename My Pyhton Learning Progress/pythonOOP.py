@@ -1,16 +1,16 @@
 #PYTHON OBJECT ORIENTED PROGRAMMING (NESNE YONELIMLI PROGRAMLAMA)
 
 #Basic Class
-class Character():
+""" class Character():
     health = 100
     shield = 50
     power = 30
     Skills = []
 
-""" print(Character.health)
+ print(Character.health)
 Character.health = 200
-print(Character.health)
- """
+print(Character.health) """
+ 
 #Instantiation (Sınıf Orneklendirmesi)
 
 """ reyna = Character()
