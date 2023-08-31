@@ -186,7 +186,63 @@ print("Set1 Set2 yi kapsiyor mu:",new_Set.issuperset(new_Set2)) # issuperset() "
 
 ##################################################################
 
+""" #Funcitons
 
+#Tek argumanli fonksiyon
+def Squareof(x):
+    print(x**2)
+
+Squareof(2)
+
+#Iki argumanli fonksyion
+def XtimesY(x,y):
+    print(x*y)
+
+XtimesY(2,3) # Tek deger girilmesi hataya yol acar.
+
+#On tanimli Arguman
+def AtimesB(x,y=1):
+    print(x*y)
+
+AtimesB(3) #Tek deger girilmesi hataya yol acmaz.
+
+#Deger donduren fonksiyon (return)
+def XminusY(x,y = 0):
+    return x-y
+
+value = XminusY(4,1) #Deger value ye esitlendi
+print(value) """
+
+
+#############################################################
+
+# if elif else Kullanimlari
+
+#if ve else Kullanimi
+""" carPrice = 100000
+wallet = 120000
+
+if(wallet >= carPrice):
+    print("You bought the car.")
+
+else:
+    print("You couldn't buy the car.")
+
+a = 1
+b = 2
+
+
+# elif Kullanimi
+if(a>b):
+    print("a > b")
+
+elif(a<b):
+    print("a < b")
+
+else:
+    print("a = b") """
+
+###########################################################
 
 
 
