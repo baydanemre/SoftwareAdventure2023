@@ -104,3 +104,5 @@ print(oytun.knownlanguages)
 
 selenay = ComputerScience("Java")
 print(selenay.knownlanguages) """
+
+#emre baydan
