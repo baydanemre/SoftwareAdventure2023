@@ -11,23 +11,23 @@
 Character.health = 200
 print(Character.health) """
  
-#Instantiation (Sınıf Orneklendirmesi)
+#Instantiation (Sinif Orneklendirmesi)
 
 """ reyna = Character()
 
 print(reyna.health)
-reyna.health = 300 # yeni değer atandı
+reyna.health = 300 # yeni değer atandi
 print(reyna.health)
 
-reyna.Skills.append("Blind") # yeni değer atandı
+reyna.Skills.append("Blind") # yeni değer atandi
 print(reyna.Skills)
 
-print(Character.health) # Ön tanımlı olduğu için değişmedi
-print(Character.Skills) # reynada yapılan değişiklik ana class ı etkiledi
+print(Character.health) # Ön tanimli olduğu için değişmedi
+print(Character.Skills) # reynada yapilan değişiklik ana class i etkiledi
 
     
 sage = Character()
-print(sage.Skills) # reynada yapılan değişiklik sonradan türetilen nesneleri etkiledi """
+print(sage.Skills) # reynada yapilan değişiklik sonradan türetilen nesneleri etkiledi """
 
 # __init__ ve self kullanimi Ornek Ozellikleri
 
